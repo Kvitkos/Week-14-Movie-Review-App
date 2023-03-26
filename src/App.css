@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+body{
+  background-color: rgb(16, 20, 31);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,7 +28,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(148, 150, 158);
 }
 
 .App-link {
@@ -35,4 +42,147 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*********** Movie List Styles ***********/ 
+
+h2{
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.card-img-top {
+  width: 20rem;
+}
+
+.movie-title {
+  color: rgb(57, 118, 220);
+}
+
+.movie-director, .movie-starring {
+  font-weight: bold;
+}
+
+.movie-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+/************** Stars styles **************/
+
+.rating {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #ffffff;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #fc972b;;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #fc972b;;
+}
+
+/*********** Review Form Styles ************/
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+button[type="submit"]:focus {
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 20px;
 }
