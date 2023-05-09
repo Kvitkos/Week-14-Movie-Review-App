@@ -61,7 +61,7 @@ h2{
 }
 
 .movie-title {
-  color: rgb(57, 118, 220);
+  color: rgb(117, 29, 51);
 }
 
 .movie-director, .movie-starring {
@@ -132,12 +132,12 @@ h2{
 
 .rating:not(:hover) label input:checked ~ .icon,
 .rating:hover label:hover input ~ .icon {
-  color: #fc972b;;
+  color: #bdc918;;
 }
 
 .rating label input:focus:not(:checked) ~ .icon:last-child {
   color: #000;
-  text-shadow: 0 0 5px #fc972b;;
+  text-shadow: 0 0 5px #bdc918;;
 }
 
 /*********** Review Form Styles ************/
@@ -165,7 +165,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: #278844;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -176,7 +176,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0062cc;
+  background-color: #278844;
 }
 
 button[type="submit"]:focus {

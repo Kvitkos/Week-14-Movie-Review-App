@@ -5,40 +5,40 @@ import Movie from './movie';
 export default class MovieList extends React.Component {
     constructor(props) {
         super(props);
-        // state with an array ov movies and properties
+        // state with an array of movies and properties
         this.state = {
             movies: [
                 {
                     id: 0,
-                    title: `Magic Mike's Last Dance`,
-                    img: `https://cdn.shopify.com/s/files/1/0057/3728/3618/products/magic-mikes-last-dance_i7iaw0tk_480x.progressive.jpg?v=1675889581`,
-                    year: 2023,
-                    synopsis: `Mike takes to the stage again, following a business deal that went bust, leaving him broke and taking bartender gigs in Florida. Mike heads to London with a wealthy socialite who lures him with an offer he can't refuse.`,
-                    director: `Steven Soderbergh`,
-                    starring: `Channing Tatum, Salma Hayek, Gavin Spokes, Caitlin Gerard`,
+                    title: `Catch Me If You Can`,
+                    img: `https://m.media-amazon.com/images/M/MV5BNDQ1YmNmNDctMTZiZS00OGU3LWIyN2YtMWIwMmVhNDQ0MjY5XkEyXkFqcGdeQXVyMjQ0NzE0MQ@@._V1_.jpg`,
+                    year: 2002,
+                    synopsis: `Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.`,
+                    director: `Steven Spielberg`,
+                    starring: `Leonardo Dicaprio, Tom Hanks, Christopher Walken`,
                     rating: 5,
                     reviews: [] 
                 },
                 {
                     id: 1,
-                    title: `Ant-Man and the Wasp: Quantumania`,
-                    img: `https://cdn.shopify.com/s/files/1/0057/3728/3618/products/ant-man-and-the-wasp-quantumania_vjwwvg7f_480x.progressive.jpg?v=1676482725`,
-                    year: 2023,
-                    synopsis: `Scott Lang and Hope Van Dyne, along with Hank Pym and Janet Van Dyne, explore the Quantum Realm, where they interact with strange creatures and embark on an adventure that goes beyond the limits of what they thought was possible.`,
-                    director: `Peyton Reed`,
-                    starring: `Paul Rudd, Evangeline Lilly, Michael Douglas, Michelle Pfeiffer, Jonathan Majors, Bill Murray`,
-                    rating: 4,
+                    title: `Troy`,
+                    img: `https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg`,
+                    year: 2004,
+                    synopsis: `An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.`,
+                    director: `Wolfgang Peterson`,
+                    starring: `Brad Pitt, Eric Bana, Orlando Bloom`,
+                    rating: 3,
                     reviews: []
                 }, 
                 {
                     id: 2,           
-                    title: `Creed 3`,
-                    img:`https://cdn.shopify.com/s/files/1/0057/3728/3618/products/creed_iii_ver4_480x.progressive.jpg?v=1676400309`,
-                    year: 2023,
-                    synopsis: `Adonis has been thriving in both his career and family life, but when a childhood friend and former boxing prodigy resurfaces, the face-off is more than just a fight.`,
-                    director: `Michael B. Jordan`,
-                    starring: `Michael B. Jordan, Tessa Thompson, Jonathan Majors, Phylicia Rashad`,
-                    rating: 3,
+                    title: `Gladiator`,
+                    img:`https://media.npr.org/assets/img/2015/11/25/gettyimages-156473199_custom-60c5ab37668dfcb743f85117f0117e28abdd7041-s1100-c50.jpg`,
+                    year: 2000,
+                    synopsis: `A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.`,
+                    director: `Ridley Scott`,
+                    starring: `Russel Crowe, Joaquin Phoenix, Connie Nielson`,
+                    rating: 5,
                     reviews: []
                 }
             ],
