@@ -1,4 +1,9 @@
 import React from 'react';
+function Home() {
+  return <h1>ReviewForm</h1>;
+}
+
+export default ReviewForm;
 
 class ReviewForm extends React.Component {
   constructor(props) {
@@ -29,4 +34,4 @@ class ReviewForm extends React.Component {
   }
 }
 
-export default ReviewForm;
+

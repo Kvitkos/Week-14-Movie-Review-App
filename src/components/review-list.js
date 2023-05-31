@@ -1,5 +1,10 @@
 import React from 'react';
 import ReviewForm from './review';
+function ReviewList() {
+  return <h1>ReviewList</h1>;
+}
+
+export default Home;
 
 export default class ReviewList extends React.Component {
     /* initialize the component state with reviews passed as props or empty array if none provided*/ 

@@ -1,5 +1,10 @@
 import React from 'react';
 import Movie from './movie';
+function Home() {
+    return <h1>MovieList</h1>;
+  }
+  
+  export default Home;
 
 // Parent component to manage the state of the movie object and pass the state down to the Movie child component as props
 export default class MovieList extends React.Component {

@@ -2,6 +2,11 @@ import React from 'react';
 import ReviewForm from './review-form';
 import ReviewList from './review-list';
 
+function Movie() {
+  return <h1>Movie</h1>;
+}
+export default Movie;
+
 /* Movie component props */ 
 const Movie = ({ id, title, img, year, synopsis, director, starring, rating, reviews, onRatingChange, onReviewSubmit }) => {
   /* create a new review object with id and text */
@@ -45,4 +50,4 @@ const Movie = ({ id, title, img, year, synopsis, director, starring, rating, rev
   );
 };
 
-export default Movie;
+
